@@ -1,0 +1,61 @@
+body {
+    background-image: url("image/background.png");
+    background-repeat: repeat;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(font/PatrickHand-Regular.ttf);
+}
+
+
+.author {
+    color: #fff;
+    font-family: myFont;
+    background-color: #ff0066;
+    width:300px;
+    border-radius: 50px;
+    text-align: center;
+    background: url("image/d9afb2f0c922f34cb6ae8ad219f53ca3.gif");
+
+}
+.container {
+    color: red;
+    background-image: linear-gradient(rgb(255, 230, 0), rgb(221, 217, 6));
+    text-align: center;
+    height: 355px;
+    width: 300px;
+    border-radius: 50px; 
+    padding: 50px 135px 90px 50px;     
+}
+
+.inner {
+    background-image: linear-gradient(rgb(0, 0, 255), rgb(2, 2, 109));
+    z-index: 22;
+    color: #fff;
+    height: 342px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+#btn1 {
+    color: #fff;
+    font-weight: bold;
+    background: #ff0f00;
+    width: 55px;
+    height: 23px;
+    border: none
+}
+
+#Svalue {
+    color: #fff;
+    background: #ff009d;
+    border: none;
+    border-radius: 5px;
+    margin-bottom : 10px;
+    margin-left: 55px;
+    padding: 5px
+}
+
