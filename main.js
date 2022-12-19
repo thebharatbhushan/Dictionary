@@ -63,7 +63,7 @@ swal({
   })
   .then((follow) => {
 	if (follow) {
-	  swal("Poof! Your imaginary file has been deleted!", {
+	  swal("Thank You!", {
 		window:location = "https://www.instagram.com/bharatbhushan055",
 		icon: "success",
 	  });
